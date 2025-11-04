@@ -1,23 +1,8 @@
 # WebRTC_Humble
 Learning WebRTC with ROS2 Humble
 
-Package layout:
-ros2_ws/
-└─ src/
-   └─ webrtc_cam_ros/
-      ├─ package.xml
-      ├─ setup.py
-      ├─ setup.cfg
-      ├─ requirements.txt
-      ├─ resource/
-      │  └─ webrtc_cam_ros
-      ├─ webrtc_cam_ros/
-      │  ├─ __init__.py
-      │  ├─ server_node.py
-      │  └─ static/
-      │     └─ index.html
-      └─ launch/
-         └─ webrtc_cam_server.launch.py
+<img width="345" height="405" alt="image" src="https://github.com/user-attachments/assets/68209ea4-fe94-4bda-a019-c342340b00f7" />
+
 
 # 0) One-time: ffmpeg & v4l tools
 sudo apt-get install -y ffmpeg v4l-utils
