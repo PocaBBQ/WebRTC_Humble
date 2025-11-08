@@ -24,4 +24,5 @@ source install/setup.bash
 ros2 launch ros_streamer ros_streamer.launch.py
 
 # 5) View from a browser on the same LAN:
-# http://<ubuntu-host>:8000/
+http://localhost:8000/ (Local test)
+http://pc-stream-ip:8000/ (LAN)
